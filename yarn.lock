@@ -9158,7 +9158,6 @@ fsevents@^1.2.7:
     "@testing-library/user-event": ^7.1.2
     classnames: ^2.2.6
     react: ^17.0.1
-    react-css-burger: ^0.2.0
     react-dom: ^17.0.1
     react-router-dom: ^5.2.0
     react-scripts: 3.4.4
@@ -11423,16 +11422,6 @@ fsevents@^1.2.7:
     regenerator-runtime: ^0.13.3
     whatwg-fetch: ^3.0.0
   checksum: 94d24bf1d69a0cbb26d8adbb14ba600b29c7c5adc06c9f9c8337d0f8ee7358ee2c443d806f8ca96fdf002d7f37c1a5fae6a796f63164df44a4fc3996aeb2d71f
-  languageName: node
-  linkType: hard
-
-"react-css-burger@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "react-css-burger@npm:0.2.0"
-  peerDependencies:
-    prop-types: ^15.5.4
-    react: ^15.0.0 || ^16.0.0
-  checksum: 8c0fd1f4804ecee0a708188e3bf31034f9822379d120824f5dc36f1ef028a4dccd45f8e4cb385c97e1450464137dad6d6a1e247ac876e9173255b608986d6012
   languageName: node
   linkType: hard
 
