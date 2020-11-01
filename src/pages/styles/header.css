@@ -54,7 +54,33 @@ nav ul li {
 
 @media screen and (max-width: 928px) {
     .navbar > nav {
+        position: absolute;
+        margin-top: 205px;
+        background: white;
+        transform: translate(0px, 50px);
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        border: 1px solid rgb(243, 243, 243);
+        border-radius: 20px;
+    }
+
+    .menu-on {
+        display: flex;
+    }
+    
+    .menu-off {
         display: none;
+    }
+
+    .navbar > nav ul li {
+        display: block;
+        margin: 20px 0px;
+    }
+
+    .navbar .link {
+        margin: 20px 0px;
+        padding: 5px 100px;
     }
 
     .burger {
@@ -71,7 +97,25 @@ nav ul li {
 
 @media screen and (max-width: 781px) {
     .navbar > nav {
-        display: none;
+        position: absolute;
+        margin-top: 205px;
+        background: white;
+        transform: translate(0px, 50px);
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        border: 1px solid rgb(243, 243, 243);
+        border-radius: 20px;
+    }
+
+    .navbar > nav ul li {
+        display: block;
+        margin: 20px 0px;
+    }
+
+    .navbar .link {
+        margin: 20px 0px;
+        padding: 5px 100px;
     }
 
     .burger {
@@ -85,7 +129,25 @@ nav ul li {
 
 @media screen and (max-width: 618px) {
     .navbar > nav {
-        display: none;
+        position: absolute;
+        margin-top: 205px;
+        background: white;
+        transform: translate(0px, 50px);
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        border: 1px solid rgb(243, 243, 243);
+        border-radius: 20px;
+    }
+
+    .navbar > nav ul li {
+        display: block;
+        margin: 20px 0px;
+    }
+
+    .navbar .link {
+        margin: 20px 0px;
+        padding: 5px 100px;
     }
 
     .burger {

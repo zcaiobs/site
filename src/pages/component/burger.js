@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
 import '../styles/burger.css'
 
-const Burger = () => {
+const Burger = (props) => {
 
     const [line, setLine] = useState('')
     
     const active = () => {
+        props.menu()
         if ( line === '' ) {
             setLine('active')
         } else {
