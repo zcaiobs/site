@@ -93,7 +93,11 @@ nav ul li {
     }
 
     .logo {
-        margin-left: 40%;
+        margin-left: 37%;
+    }
+
+    .logo img {
+        width: 140px;
     }
 }
 
