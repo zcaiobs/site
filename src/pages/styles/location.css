@@ -109,7 +109,7 @@ a > img {
     }
 
     .adress {
-        width: 380px;
+        width: 350px;
         height: 465px;
         display: flex;
         flex-direction: column;

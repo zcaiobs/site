@@ -3,7 +3,7 @@ import '../styles/burger.css'
 
 const Burger = () => {
 
-    const [line, setLine] = useState('active')
+    const [line, setLine] = useState('')
     
     const active = () => {
         if ( line === '' ) {
