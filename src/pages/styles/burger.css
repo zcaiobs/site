@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.burger {
+    cursor: pointer;
+    margin-top: 9px;
+    margin-left: 14px;
+}
+
+.burger .line-1 {
+    width: 40px;
+    height: 6px;
+    margin: 7px;
+    background: #FF7324;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.burger .line-2 {
+    width: 40px;
+    height: 6px;
+    margin: 7px;
+    background: #FF7324;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.burger .line-3 {
+    width: 20px;
+    height: 6px;
+    margin: 7px;
+    background: #FF7324;
+    border-radius: 20px;
+}
+
+.active > .line-1{
+    transform: translate(0px, 9px) rotate(45deg);
+}
+
+.active > .line-2{
+    transform: translate(0px, -3px) rotate(-45deg);
+}
+
+.active > .line-3 {
+    background: none;
+}
+
+
+

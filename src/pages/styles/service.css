@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.service {
+    border-top: 2px dashed #FF7324;
+    width: 90%;
+    margin: auto;
+}
+
+.service > div {
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}

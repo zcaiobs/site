@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 156px;
+    height: 47px;
+    background: #FF7324;
+    color: #fff;
+    font-size: 20px; 
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: rgb(255, 255, 255);
+    color: #FF7324;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn-div {
+    margin: 30px 10px;
+}

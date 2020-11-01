@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    padding: 25px 0px;
+}
+
+.logo {
+    margin-left: 33%;
+}
+
+.logo > img {
+   width: 150px; 
+}
+
+nav ul li {
+    display: inline;
+}
+
+.link {
+    text-decoration: none;
+    padding: 25px;
+    color: #263238;
+    font-size: 20px;
+}
+
+.link:hover {
+    color: #FF7324;
+    transition: 0.3s;
+}
+
+.App {
+    width: 100%;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 928px) {
+    .navbar > nav {
+        display: none;
+    }
+
+    .burger {
+        display: initial;
+    }
+
+    .logo {
+        margin-left: 70%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 781px) {
+    .navbar > nav {
+        display: none;
+    }
+
+    .burger {
+        display: initial;
+    }
+
+    .logo {
+        margin-left: 60%;
+    }
+}
+
+@media screen and (max-width: 618px) {
+    .navbar > nav {
+        display: none;
+    }
+
+    .burger {
+        display: initial;
+    }
+
+    .logo {
+        margin-left: 40%;
+    }
+}
+
+  
